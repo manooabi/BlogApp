@@ -95,6 +95,7 @@ class CategoryController extends Controller
             {
                 File::delete($destination);
             }
+            $category -> posts() -> delete();
             $category -> delete();
             return redirect('admin/category')-> with('message','Category Deleted succesfully');
         }
