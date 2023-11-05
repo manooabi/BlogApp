@@ -35,7 +35,7 @@
 
         <div class="card card-shadow mt-4">
             <div class="card-body">
-                <h1 >No POst Availabe</h2>
+                <h1 >No Post Availabe</h2>
             </div>
         </div>
         @endforelse
